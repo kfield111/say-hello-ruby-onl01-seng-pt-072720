@@ -1,5 +1,5 @@
-def test (language, name)
-  puts "Hello #{name}.  We heard you were a great #{language} programmer."
-end
+def test (name="Kelin", name_2="John", greeting)
+ puts "Hello #{name} and #{name_2}, #{greeting}"
+ end
 
-test ("Kelin")
+ test("How are you?")
